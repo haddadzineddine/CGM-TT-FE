@@ -8,7 +8,7 @@ export default function Home() {
           This is a simple Next.js application that uses Tailwind CSS and TypeScript.
         </p>
 
-        <a href="zineddine.pro" className="text-blue-500 hover:underline">
+        <a href="https://www.zineddine.pro" className="text-blue-500 hover:underline mt-4" target="_blank">
           Zineddine website
         </a>
       </div>
