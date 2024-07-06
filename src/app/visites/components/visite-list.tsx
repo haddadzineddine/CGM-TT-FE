@@ -7,7 +7,7 @@ export async function VisiteList() {
 
     return (
         <div className="w-full">
-            <h1 className="text-2xl font-bold">Visites List</h1>
+            <h1 className="text-3xl font-bold">Visites List</h1>
 
 
 
