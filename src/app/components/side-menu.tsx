@@ -4,7 +4,9 @@ export function SideMenu() {
     return (
         <aside className="bg-gray-800 text-white w-64 h-screen p-8">
 
-            <h1 className="text-2xl font-bold">CGM TT</h1>
+            <h1 className="text-2xl font-bold">
+                <Link href="/" className="text-white hover:text-gray-300">CGM TT</Link>
+            </h1>
 
 
             <h2 className="text-lg font-bold mt-16">Patient</h2>
