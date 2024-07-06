@@ -11,7 +11,7 @@ export async function PatientList() {
 
     return (
         <div className="w-full">
-            <h1 className="text-2xl font-bold">Patient List</h1>
+            <h1 className="text-3xl font-bold">Patient List</h1>
 
 
 

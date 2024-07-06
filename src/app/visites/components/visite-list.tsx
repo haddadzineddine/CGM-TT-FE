@@ -34,6 +34,10 @@ export async function VisiteList() {
                             <th scope="col" className="px-6 py-3">
                                 Patient
                             </th>
+
+                            <th scope="col" className="px-6 py-3">
+                                Actions
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -56,6 +60,10 @@ export async function VisiteList() {
                                 </td>
                                 <td className="px-6 py-4 whitespace-nowrap">
                                     {visite.patient.name} {visite.patient.surname}
+                                </td>
+
+                                <td className="px-6 py-4 whitespace-nowrap">
+                                    <a href={`/visites/update/${visite.uuid}`} className="text-blue-500 hover:text-blue-600">Update</a>
                                 </td>
                             </tr>
                         ))}

@@ -14,7 +14,7 @@ export function SideMenu() {
                     <Link href="/patients" className="text-white hover:text-gray-300">Patient List</Link>
                 </li>
                 <li className="p-2">
-                    <Link href="/patients" className="text-white hover:text-gray-300">Add Patient</Link>
+                    <Link href="/patients/create" className="text-white hover:text-gray-300">Add Patient</Link>
                 </li>
             </ul>
 
@@ -26,7 +26,7 @@ export function SideMenu() {
                     <Link href="/visites" className="text-white hover:text-gray-300">Visite List</Link>
                 </li>
                 <li className="p-2">
-                    <Link href="/visites" className="text-white hover:text-gray-300">Add Visite</Link>
+                    <Link href="/visites/create" className="text-white hover:text-gray-300">Add Visite</Link>
                 </li>
             </ul>
         </aside>

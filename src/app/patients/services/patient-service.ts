@@ -1,6 +1,6 @@
 import { backendUrl } from "@/app/constants";
-import { Patient } from "../types/patient";
-import axios from "axios";
+import { CreatePatientDto, Patient } from "../types/patient";
+import axios, { AxiosResponse } from "axios";
 
 export class PatientService {
   private static baseUrl = backendUrl + "/patients";
@@ -21,4 +21,9 @@ export class PatientService {
     const response = await axios.get<Patient[]>(this.baseUrl);
     return response.data;
   }
+
+  static async createPatient(patient: CreatePatientDto): Promise<AxiosResponse<Patient, any>> {
+    return await axios.post<Patient>(this.baseUrl, patient);
+  }
+
 }
